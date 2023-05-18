@@ -1,7 +1,55 @@
 *{
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 body{
-    background-color: rgb(83, 83, 83);
+    background-color:rgb(107, 52, 47);
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.fullname{
+    color:aliceblue;
+    font-size: 30px;
+    background-color:rgb(28, 17, 105);
+    padding-left: 15px;
+    padding-top:7px;
+    padding-bottom:7px;
+    margin-left:400px;
+    margin-right:400px;
+}
+
+img{
+    width:100%;
+    max-width:150px;
+    margin-left:400px;
+    margin-bottom:18px;
+}
+
+.info{
+    float:right;
+    width:950px;
+    margin-right:385px;
+}
+
+.list{
+    background-color:rgb(28, 17, 105);
+    padding-left:17px;
+    padding-top:6px;
+    padding-bottom:1px;
+    margin-left:400px;
+    margin-right:400px;
+    list-style-position: inside;
+
+}
+
+dl dt{
+    font-weight:600;
+    font-size: 1.15rem;
+    padding-bottom:8px;
+}
+
+dl dd{
+    padding-bottom:9px;
+    margin-left:0px;
 }
